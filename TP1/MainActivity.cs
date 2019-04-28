@@ -7,6 +7,8 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System;
+using TP1.Model;
+using Newtonsoft.Json;
 
 namespace TP1
 {
@@ -22,16 +24,14 @@ namespace TP1
             text1.Text = GetData().ToString();
         }
 
-        public async Task<string> GetData() {
-            HttpClient client = new HttpClient();
-            var uri = new Uri("http://localhost:50629/api/phones/1");
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(
-            new MediaTypeWithQualityHeaderValue("application/json"));
-            var response = client.GetAsync(uri);
-            //var content =  response.Content.ReadAsStringAsync();
-            var content = response.Result.RequestMessage.Content.ToString();
-            return response.Result.Content.ToString();
+        public static async Task<CatalogPhone> GetData()
+        {
+            var client = new HttpClient();
+            string response = await client.GetStringAsync("http://localhost:50629/api/phones");
+            var contenue = JsonConvert.DeserializeObject<CatalogPhone>(response);
+            Console.WriteLine(contenue.ToString());
+            return contenue;
+
         }
     }
 }
