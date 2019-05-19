@@ -814,6 +814,7 @@ int id info 0x7f0800a7
 int id italic 0x7f080059
 int id item_touch_helper_previous_elevation 0x7f080000
 int id largeLabel 0x7f08008d
+int id layoutPrincipal 0x7f08008b
 int id left 0x7f080049
 int id line1 0x7f080017
 int id line3 0x7f080018
@@ -885,7 +886,6 @@ int id text 0x7f08001a
 int id text2 0x7f08001b
 int id textSpacerNoButtons 0x7f08006a
 int id textSpacerNoTitle 0x7f080069
-int id textView1 0x7f08008b
 int id text_input_password_toggle 0x7f080099
 int id textinput_counter 0x7f080014
 int id textinput_error 0x7f080015

@@ -2570,6 +2570,9 @@ namespace TP1
 			// aapt resource value: 0x7f08008d
 			public const int largeLabel = 2131230861;
 			
+			// aapt resource value: 0x7f08008b
+			public const int layoutPrincipal = 2131230859;
+			
 			// aapt resource value: 0x7f080049
 			public const int left = 2131230793;
 			
@@ -2782,9 +2785,6 @@ namespace TP1
 			
 			// aapt resource value: 0x7f080069
 			public const int textSpacerNoTitle = 2131230825;
-			
-			// aapt resource value: 0x7f08008b
-			public const int textView1 = 2131230859;
 			
 			// aapt resource value: 0x7f080099
 			public const int text_input_password_toggle = 2131230873;
