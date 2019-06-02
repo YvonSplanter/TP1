@@ -1,3 +1,6 @@
+TP1.Activity1, TP1;md5c270e18b317fac2109e9fdd1cb503e2d.Activity1
+TP1.Activity1;md5c270e18b317fac2109e9fdd1cb503e2d.Activity1
+tp1.Activity1;md5c270e18b317fac2109e9fdd1cb503e2d.Activity1
 TP1.MainActivity, TP1;md5c270e18b317fac2109e9fdd1cb503e2d.MainActivity
 TP1.MainActivity;md5c270e18b317fac2109e9fdd1cb503e2d.MainActivity
 tp1.MainActivity;md5c270e18b317fac2109e9fdd1cb503e2d.MainActivity

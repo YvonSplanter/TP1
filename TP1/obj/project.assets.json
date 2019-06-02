@@ -520,11 +520,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anonyme\\source\\repos\\TP1\\TP1\\TP1.csproj",
+      "projectUniqueName": "C:\\Users\\anonyme\\Documents\\GitProjet\\TP1\\TP1\\TP1.csproj",
       "projectName": "TP1",
-      "projectPath": "C:\\Users\\anonyme\\source\\repos\\TP1\\TP1\\TP1.csproj",
+      "projectPath": "C:\\Users\\anonyme\\Documents\\GitProjet\\TP1\\TP1\\TP1.csproj",
       "packagesPath": "C:\\Users\\anonyme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anonyme\\source\\repos\\TP1\\TP1\\obj\\",
+      "outputPath": "C:\\Users\\anonyme\\Documents\\GitProjet\\TP1\\TP1\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

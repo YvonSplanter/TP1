@@ -3028,6 +3028,7 @@ containing a value of this type.
         public static int italic=0x7f080059;
         public static int item_touch_helper_previous_elevation=0x7f080000;
         public static int largeLabel=0x7f08008d;
+        public static int layoutPrincipal=0x7f08008b;
         public static int left=0x7f080049;
         public static int line1=0x7f080017;
         public static int line3=0x7f080018;
@@ -3099,7 +3100,6 @@ containing a value of this type.
         public static int text2=0x7f08001b;
         public static int textSpacerNoButtons=0x7f08006a;
         public static int textSpacerNoTitle=0x7f080069;
-        public static int textView1=0x7f08008b;
         public static int text_input_password_toggle=0x7f080099;
         public static int textinput_counter=0x7f080014;
         public static int textinput_error=0x7f080015;

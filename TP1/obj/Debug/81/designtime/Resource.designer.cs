@@ -2342,6 +2342,12 @@ namespace TP1
 			// aapt resource value: 0x7F0C0002
 			public const int action_divider = 2131492866;
 			
+			// aapt resource value: 0x7F010006
+			public const int action_explore = 2130771974;
+			
+			// aapt resource value: 0x7F010005
+			public const int action_favorites = 2130771973;
+			
 			// aapt resource value: 0x7F0C0003
 			public const int action_image = 2131492867;
 			
@@ -2359,6 +2365,9 @@ namespace TP1
 			
 			// aapt resource value: 0x7F0C0011
 			public const int action_mode_close_button = 2131492881;
+			
+			// aapt resource value: 0x7F010004
+			public const int action_recents = 2130771972;
 			
 			// aapt resource value: 0x7F0C0004
 			public const int action_text = 2131492868;
@@ -2383,6 +2392,9 @@ namespace TP1
 			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
+			
+			// aapt resource value: 0x7F010003
+			public const int bottomNavigationItemView1 = 2130771971;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2919,6 +2931,12 @@ namespace TP1
 			
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
+			
+			// aapt resource value: 0x7F020003
+			public const int layout1 = 2130837507;
+			
+			// aapt resource value: 0x7F020004
+			public const int menu = 2130837508;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;

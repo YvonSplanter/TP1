@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System;
 using TP1.Model;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace TP1
 {
@@ -25,16 +26,31 @@ namespace TP1
             async Task GetData()
             {
                 var client = new HttpClient();
-                var uri = "http://192.168.0.160:50629/api/phones";
+                var uri = "http://10.8.19.65:50629/api/phones";
                 var result = await client.GetStringAsync(uri);
                 var catalog = JsonConvert.DeserializeObject<CatalogPhone>(result);
-                foreach (var phone in catalog.Phones) {
+                foreach (var phone in catalog.Phones)
+                {
                     var tv = new TextView(this);
                     tv.Text = $"{phone.Name} : {phone.Price}";
                     principalLayout.AddView(tv);
                 }
             };
             await GetData();
+            //async Task GetComputers()
+            //{
+            //    var client = new HttpClient();
+            //    var uri = "http://192.168.10.11/api/computer";
+            //    var result = await client.GetStringAsync(uri);
+            //    var computers = JsonConvert.DeserializeObject<List<Computer>>(result);
+            //    foreach (var computer in computers)
+            //    {
+            //        var tv = new TextView(this);
+            //        tv.Text = $"{computer.Brand} : {computer.Model}";
+            //        principalLayout.AddView(tv);
+            //    }
+            //};
+            //await GetComputers();
         }
     }
 }
